@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LearnPro — Online Learning Platform</title>
+  <link rel="stylesheet" href="style4.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920244.png" 
+     alt="LearnPro Logo" class="logo" />
+        <span class="brand-name">LearnPro</span>
+      </div>
+
+      <nav class="primary-nav" aria-label="Primary Navigation">
+        <ul>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="cta-actions">
+        <a class="btn btn-outline" href="#pricing">Pricing</a>
+        <a class="btn btn-primary" href="#contact">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Upskill quickly with industry-ready courses</h1>
+          <p>Short, hands-on courses designed to get you job-ready. Learn anytime, from anywhere.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#courses">Browse Courses</a>
+            <a class="btn btn-outline" href="#contact">Request Demo</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card"> <!-- decorative card with keyframe -->
+            <img src="online learning illustrations.jpg" alt="Online Learning illustrations" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="section courses">
+      <div class="container">
+        <header class="section-header">
+          <h2>Popular Courses</h2>
+          <p>Project-based learning with mentor support and real-world exercises.</p>
+        </header>
+
+        <div class="grid courses-grid" role="list">
+          <!-- Course Card 1 -->
+          <article class="card course-card" role="listitem">
+            <img src=" https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=1200" 
+     alt="Full Stack Web Development Course" />
+            <div class="card-body">
+              <h3>Full Stack Web Development</h3>
+              <p class="meta">40 hours • Beginner → Intermediate</p>
+              <p class="desc">Build responsive websites, REST APIs and dynamic apps using modern tools.</p>
+              <div class="card-footer">
+                <span class="price">₹4,999</span>
+                <a class="btn btn-sm" href="#contact">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Course Card 2 -->
+          <article class="card course-card" role="listitem">
+            <img src=" https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=1200"
+       alt="Data Science and Machine Learning Course" />
+            <div class="card-body">
+              <h3>Data Science & Machine Learning</h3>
+              <p class="meta">50 hours • Intermediate</p>
+              <p class="desc">Learn Python, statistics, model building and deployment fundamentals.</p>
+              <div class="card-footer">
+                <span class="price">₹5,999</span>
+                <a class="btn btn-sm" href="#contact">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Course Card 3 -->
+          <article class="card course-card" role="listitem">
+            <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=1200"
+       alt="Full Stack Web Development Course" />
+            <div class="card-body">
+              <h3>UI / UX Design</h3>
+              <p class="meta">30 hours • Beginner</p>
+              <p class="desc">Design interfaces, wireframes and user flows with hands-on projects.</p>
+              <div class="card-footer">
+                <span class="price">₹3,499</span>
+                <a class="btn btn-sm" href="#contact">Enroll</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Add more cards as needed -->
+        </div>
+      </div>
+    </section>
+
+    <aside class="section sidebar container">
+      <div class="filters">
+        <h4>Filter (visual only)</h4>
+        <form aria-label="Course filters">
+          <label for="level">Level</label>
+          <select id="level" name="level">
+            <option>All</option>
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+          </select>
+
+          <label for="duration">Duration</label>
+          <select id="duration" name="duration">
+            <option>Any</option>
+            <option>&lt; 20 hours</option>
+            <option>20 - 40 hours</option>
+            <option>&gt; 40 hours</option>
+          </select>
+
+          <button type="button" class="btn btn-outline btn-sm">Apply</button>
+        </form>
+      </div>
+    </aside>
+
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <header class="section-header">
+          <h2>What learners say</h2>
+        </header>
+        <div class="grid testimonials-grid">
+          <article class="card testimonial">
+            <p>"The projects and mentors helped me land my first job. Highly recommended!"</p>
+            <footer>- shadav</footer>
+          </article>
+          <article class="card testimonial">
+            <p>"Great structure and practical assignments — clear learning path."</p>
+            <footer>- Aman Verma</footer>
+          </article>
+          <article class="card testimonial">
+            <p>"Loved the flexible timings and recorded lessons."</p>
+            <footer>- Farooq Sameer</footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing">
+      <div class="container">
+        <header class="section-header">
+          <h2>Pricing Plans</h2>
+        </header>
+        <div class="grid pricing-grid" role="list">
+          <article class="card plan" role="listitem">
+            <h3>Basic</h3>
+            <p class="price">₹999</p>
+            <ul>
+              <li>Access to 10 courses</li>
+              <li>Community support</li>
+            </ul>
+            <a class="btn" href="#contact">Get Basic</a>
+          </article>
+
+          <article class="card plan" role="listitem">
+            <h3>Pro</h3>
+            <p class="price">₹4,999</p>
+            <ul>
+              <li>All courses</li>
+              <li>Mentor support</li>
+              <li>Career workshop</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Get Pro</a>
+          </article>
+
+          <article class="card plan" role="listitem">
+            <h3>Enterprise</h3>
+            <p class="price">Custom</p>
+            <ul>
+              <li>Team licensing</li>
+              <li>Dedicated onboarding</li>
+            </ul>
+            <a class="btn btn-outline" href="#contact">Contact Sales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Contact & Request Demo</h2>
+          <p>Have questions? Request a demo or drop your details and we'll get back to you.</p>
+          <address>
+            <strong>LearnPro</strong><br>
+            123 Learning Rd, Bangalore<br>
+            <a href="mailto:hello@learnpro.example">hello@learnpro.example</a>
+          </address>
+        </div>
+
+        <form class="card contact-form" aria-label="Contact form">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" placeholder=" Enter Your name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="abcde@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us what you're looking for" rows="5" required></textarea>
+
+          <div class="form-row">
+            <button class="btn btn-primary" type="submit">Send Request</button>
+            <button class="btn btn-outline" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.svg" alt="" aria-hidden="true" />
+        <small>© <span id="year"></span> LearnPro. All rights reserved.</small>
+      </div>
+      <nav aria-label="Footer Links">
+        <ul>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // small script for footer year (progressive enhancement, optional)
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
